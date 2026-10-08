@@ -1,0 +1,22 @@
+# README.md
+# Fuzzy Wine Quality Prediction System
+
+A fuzzy logic-based system for predicting wine quality based on chemical properties.
+
+## Overview
+
+This project implements a fuzzy inference system (FIS) to predict wine quality scores (0-10) based on 10 chemical properties of wine. The system uses scikit-fuzzy to define membership functions and rules that mimic expert knowledge in wine evaluation.
+
+## Features
+
+- Interactive prediction mode for single wine samples
+- Batch prediction mode for entire datasets
+- 15 fuzzy rules based on wine chemistry knowledge
+- Membership functions for all chemical properties
+- Quality ratings: Very Poor, Poor, Average, Good, Excellent
+
+## Installation
+
+1. Install required packages:
+```bash
+pip install -r requirements.txt
